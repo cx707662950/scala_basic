@@ -10,7 +10,7 @@ object CaseClassTest {
 
 
     //当你创建包含参数的案例类时，这些参数是公开（public）的val
-    val message1 = Message("guillaume@quebec.ca", "jorge@catalonia.es", "Ça va ?")
+    val message1 = Message("test stest test guillaume@quebec.ca", "jorge@catalonia.es", "Ça va ?")
 
     println(message1.sender)  // prints guillaume@quebec.ca
 //    message1.sender = "travis@washington.us"  // this line does not compile
